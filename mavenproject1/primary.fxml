@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="362.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mavenproject1.PrimaryController">
+   <children>
+      <VBox layoutX="117.0" layoutY="22.0" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+         <children>
+            <Button fx:id="increase" mnemonicParsing="false" onAction="#increaseButtonAction" text="Increase" />
+            <Label fx:id="label" text="0" />
+            <Button fx:id="decrease" mnemonicParsing="false" onAction="#decreaseButtonAction" text="Decrease" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
